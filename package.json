@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JoshJHaines/express-intro-hw#readme",
   "dependencies": {
+    "ejs": "^3.1.6",
     "morgan": "^1.10.0"
   }
 }
