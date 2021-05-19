@@ -16,6 +16,7 @@ app.use(morgan("dev"));
 //use express json
 app.use(express.json());
 
+//telling the app where to look for static files
 app.use(express.static(path.join(__dirname, "public")));
 
 //tell where to find views folder
