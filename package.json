@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JoshJHaines/express-intro-hw/issues"
   },
-  "homepage": "https://github.com/JoshJHaines/express-intro-hw#readme"
+  "homepage": "https://github.com/JoshJHaines/express-intro-hw#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
