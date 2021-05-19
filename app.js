@@ -36,7 +36,7 @@ app.get("/photo-fun", function (req, res) {
 });
 
 app.get("/:pet/:age", function (req, res) {
-	res.json({ message: "HERE I AM HERE!" });
+	res.render("pets", { pet: req.params.pet, age: req.params.age });
 });
 
 //start express server

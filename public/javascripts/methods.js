@@ -1,1 +1,1 @@
-console.log("Following the path correctly...this is the way")
+console.log("Hello World")
