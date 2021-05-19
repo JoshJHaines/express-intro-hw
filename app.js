@@ -25,7 +25,14 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
-	res.render("index");
+	res.render("index", {
+		user: "Josh",
+		info: ["likes hockey", "plays DnD", "lives in NC"],
+	});
+});
+
+app.get("/photo-fun", function (req, res) {
+	res.render("photos");
 });
 
 //start express server
