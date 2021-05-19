@@ -35,6 +35,10 @@ app.get("/photo-fun", function (req, res) {
 	res.render("photos");
 });
 
+app.get("/:pet/:age", function (req, res) {
+	res.json({ message: "HERE I AM HERE!" });
+});
+
 //start express server
 app.listen(3000, function () {
 	console.log("Server started in port 3000");
